@@ -1,4 +1,4 @@
-FROM node:10.24.0
+FROM node:14-buster-slim
 
 RUN mkdir /usr/src/goof
 RUN mkdir /tmp/extracted_files
